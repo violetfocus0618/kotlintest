@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/auth_google_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="136dp"
+            android:layout_marginTop="308dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:padding="@dimen/text_padding"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/login_google_button_text" />
+
+        <TextView
+            android:id="@+id/auth_pinterest_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="388dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:padding="@dimen/text_padding"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/login_pinterest_button_text" />
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="189dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:padding="@dimen/text_padding"
+            android:textSize="@dimen/button_text_size"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="199dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

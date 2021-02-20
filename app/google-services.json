@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "790596207469",
+    "firebase_url": "https://cupidgracer-88042.firebaseio.com",
+    "project_id": "cupidgracer-88042",
+    "storage_bucket": "cupidgracer-88042.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790596207469:android:66787488dd24062cdc1064",
+        "android_client_info": {
+          "package_name": "com.example.android.firebaseui_login_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790596207469-3ktu1ug27mdtahvt5g1at0batf7eo2st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.firebaseui_login_sample",
+            "certificate_hash": "5ee274ba49c3c889a3e80dd4ca3c581fcab58574"
+          }
+        },
+        {
+          "client_id": "790596207469-h8tc77hiscj2rg0ku1bak7ncao14r3aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ8FAdewAUtiYc5YMCcPDqW6qQcIMxj_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790596207469-h8tc77hiscj2rg0ku1bak7ncao14r3aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
